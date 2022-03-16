@@ -6,11 +6,14 @@ const BodyContainer = () => {
   return (
     <BodySection>
       <BodySection.Content>
-        <BodySection.Heading>Enjoy on your TV.</BodySection.Heading>
-        <BodySection.Text>
-          Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
-          players, and more.
-        </BodySection.Text>
+        <BodySection.ImageWrapper>
+          <BodySection.Heading>Enjoy on your TV.</BodySection.Heading>
+          <BodySection.Text>
+            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            players, and more.
+          </BodySection.Text>
+        </BodySection.ImageWrapper>
+
         <BodySection.ImageWrapper>
           <Image
             src="/tv-image-one.png"
@@ -22,12 +25,15 @@ const BodyContainer = () => {
       </BodySection.Content>
 
       <BodySection.Content>
-        <BodySection.Heading>
-          Download your shows to watch offline.
-        </BodySection.Heading>
-        <BodySection.Text>
-          Save your favorites easily and always have something to watch.
-        </BodySection.Text>
+        <BodySection.ImageWrapper>
+          <BodySection.Heading>
+            Download your shows to watch offline.
+          </BodySection.Heading>
+          <BodySection.Text>
+            Save your favorites easily and always have something to watch.
+          </BodySection.Text>
+        </BodySection.ImageWrapper>
+
         <BodySection.ImageWrapper>
           <Image
             src="/image-two.jpg"
@@ -47,11 +53,14 @@ const BodyContainer = () => {
       </BodySection.Content>
 
       <BodySection.Content>
-        <BodySection.Heading>Create profiles for kids.</BodySection.Heading>
-        <BodySection.Text>
-          Send kids on adventures with their favorite characters in a space made
-          just for them—free with your membership.
-        </BodySection.Text>
+        <BodySection.ImageWrapper>
+          <BodySection.Heading>Create profiles for kids.</BodySection.Heading>
+          <BodySection.Text>
+            Send kids on adventures with their favorite characters in a space
+            made just for them—free with your membership.
+          </BodySection.Text>
+        </BodySection.ImageWrapper>
+
         <BodySection.ImageWrapper>
           <Image
             src="/kids-image.png"

@@ -9,6 +9,7 @@ export const Content = styled.section`
 padding: 3em 0em;
 border-bottom: 8px solid var(--color-text-gray);
 text-align: center;
+
 `
 
 export const Heading = styled.h2`
@@ -20,14 +21,14 @@ font-weight: 700;
 
 export const Text = styled.p`
 color: var(--color-white);
-font-size: 1.18rem;
-font-weight: 500;
+font-size: 1.185rem;
+font-weight: 400;
 padding: 0.7em 0.5em;
 line-height:1.6;
 `
 
 export const ImageWrapper = styled.div`
-position: relative;
+
 `
 
 export const List = styled.ul`
