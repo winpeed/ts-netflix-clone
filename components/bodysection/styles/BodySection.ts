@@ -35,6 +35,7 @@ color: var(--color-white);
 font-size: 1.7rem;
 font-weight: 600;
 margin: 0em 0em 0.5em 0em;
+line-height: 1.3;
 
 @media(min-width: 760px){
   font-size: 3.125rem;
@@ -46,7 +47,7 @@ color: var(--color-white);
 font-size: 1.185rem;
 font-weight: 400;
 padding: 0.7em 0em;
-line-height:1.6;
+line-height:1.3;
 
 @media(min-width: 760px){
     font-size: 1.625rem;

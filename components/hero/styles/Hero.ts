@@ -20,6 +20,7 @@ font-size: 1.75rem;
 color: var(--color-white);
 margin-top: 1.5em;
 font-weight: 700;
+padding: 0em 1.3em;
 
 @media(min-width: 730px){
     font-size: 3.125rem;
