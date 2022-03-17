@@ -11,7 +11,7 @@ const FaqContainer = () => {
 
   return (
     <BodySection>
-      <BodySection.Content>
+      <BodySection.FaqContent>
         <BodySection.Heading>Frequently Asked Questions</BodySection.Heading>
         <BodySection.List>
           {faqs.map((faq: any) => {
@@ -55,7 +55,7 @@ const FaqContainer = () => {
             <MdArrowForwardIos style={{ margin: "0em 0em 0em 0.7em" }} />
           </Hero.FormButton>
         </Hero.Form>
-      </BodySection.Content>
+      </BodySection.FaqContent>
     </BodySection>
   );
 };

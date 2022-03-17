@@ -1,11 +1,17 @@
 import React from "react";
-import { ComponentProps, ListButtonProps } from "../../interfaces/interfaces";
+import {
+  ComponentProps,
+  ListButtonProps,
+  SectionProps,
+} from "../../interfaces/interfaces";
 import {
   Container,
+  FaqContent,
   Content,
   Heading,
   Text,
   ImageWrapper,
+  ContentWrapper,
   List,
   ListItem,
   ListButton,
@@ -22,8 +28,15 @@ export default function BodySection({
 BodySection.Content = function BodySectionContent({
   children,
   ...restProps
-}: ComponentProps) {
+}: SectionProps) {
   return <Content {...restProps}>{children}</Content>;
+};
+
+BodySection.FaqContent = function BodySectionFaqContent({
+  children,
+  ...restProps
+}: ComponentProps) {
+  return <FaqContent {...restProps}>{children}</FaqContent>;
 };
 
 BodySection.Heading = function BodySectionHeading({
@@ -38,6 +51,13 @@ BodySection.Text = function BodySectionText({
   ...restProps
 }: ComponentProps) {
   return <Text {...restProps}>{children}</Text>;
+};
+
+BodySection.ContentWrapper = function BodySectionContentWrapper({
+  children,
+  ...restProps
+}: ComponentProps) {
+  return <ContentWrapper {...restProps}>{children}</ContentWrapper>;
 };
 
 BodySection.ImageWrapper = function BodySectionImageWrapper({

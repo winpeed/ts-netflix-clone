@@ -13,7 +13,6 @@ border-bottom: 8px solid var(--color-text-gray);
 @media(min-width: 730px){
     min-height: 100vh;
 }
-
 `
 
 export const MainHeading = styled.h1`
